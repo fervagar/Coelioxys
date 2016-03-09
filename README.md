@@ -1,7 +1,8 @@
 # Coelioxys
 
-![Logo](otherstuff/CoelioxysLogo.png =220x240)
-
+<p align="center">
+	<img alt="Logo" src="./otherstuff/CoelioxysLogo.png" height="220" width="240">
+ </p>
 
 Coelioxys is a self-replicating parasite code based on Linux systems under the x86 architecture, although it could work on x86-64 with some little adjustments.
 
