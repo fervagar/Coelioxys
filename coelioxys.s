@@ -35,6 +35,7 @@
 .text
 .globl _start
 
+
 _start:
   xor %ebp, %ebp
   and $0xfffffff0, %esp
