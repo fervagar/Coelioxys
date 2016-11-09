@@ -17,7 +17,7 @@
 ####    You should have received a copy of the GNU Affero General Public License  #
 ####    along with this program.  If not, see <http://www.gnu.org/licenses/>.	  #
 ####										  #
-####	Fernando Vañó García <fervagar@tuta.io>					  #
+####	Fernando Vañó García <fernando@fervagar.com>		                  #
 ####										  #
 ###################################################################################
 
@@ -188,7 +188,7 @@ def ApplyCoelioxysVaccine(filename):
   _treat(filename, False);
 
 def main():
-  parser = ArgumentParser(description='This is the Vaccine for the Coelioxys virus.\nIt can be used directly or as a imported library.\nIn the second case, use the function ApplyCoelioxysVaccine(filename). Fernando Vanyo <fervagar@tuta.io>');
+  parser = ArgumentParser(description='This is the Vaccine for the Coelioxys virus.\nIt can be used directly or as a imported library.\nIn the second case, use the function ApplyCoelioxysVaccine(filename). Fernando Vanyo <fernando@fervagar.com>');
   parser.add_argument('<infected file>', type=str, help='ELF binary file infected by Coelioxys')
   args = vars(parser.parse_args());
 
